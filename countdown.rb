@@ -10,9 +10,10 @@ end
 
 def countdown_with_sleep(seconds)
   while seconds > 0
+    t = Time.now
     puts "#{seconds} SECOND(S)!"
-    sleep 1
     second -= 1
+    sleep 1
   end
   return "HAPPY NEW YEAR!"
 end
