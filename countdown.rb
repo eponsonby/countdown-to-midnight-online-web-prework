@@ -15,6 +15,5 @@ def countdown_with_sleep(seconds)
     sleep(t + 1 - Time.now)
     second -= 1
   end
-  end
   return "HAPPY NEW YEAR!"
 end
